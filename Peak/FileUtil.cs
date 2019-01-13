@@ -47,6 +47,11 @@ namespace Peak
         #endregion
 
         #region  方法
+        /// <summary>
+        /// 是否隐藏
+        /// </summary>
+        /// <param name="dirInfo"></param>
+        /// <returns></returns>
         private static bool IsSystemHidden(DirectoryInfo dirInfo)
         {
             if (dirInfo.Parent == null)
