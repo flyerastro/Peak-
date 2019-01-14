@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="DriverAndFileService.cs" />
     <Compile Include="FileUtil.cs" />
+    <Compile Include="MftScanner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
